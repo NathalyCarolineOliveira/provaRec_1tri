@@ -4,12 +4,13 @@
     // Faça um script que leia o custo de fábrica do computador e calcule os custos adicionais, apresentando o custo final do computador ao comprador.
 
     //ENTRADA
-
-    
+const prc = Number(prompt(`Informe o preço do computador`).trim().replace(",","."));
+  
     //PROCESSAMENTO
-
-
+const impost = (prc * 0.30)
+const porcen = (prc * 0.45)
     //SAÍDA
-
+alert(`custo final do computador com os adicionais da fábrica: ${impost.toFixed(2)}`);
+alert(`custo final do computador com os adicionais da loja: ${porcen.toFixed(2)}`);
 
 </script>

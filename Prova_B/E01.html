@@ -4,10 +4,13 @@
     // Por exemplo, em uma empresa com 200 funcionários, apenas 40 funcionários possuem acesso à Internet, o que equivale a 40% destes 200 alunos.
 
     //ENTRADA
-
+const func = Number(prompt(`Quantos funcionários tem na empresa no total?`).trim);
+const funInter = Number(prompt(`Quantos funcionários tem internet em casa?`).trim);
 
     //PROCESSAMENTO
-    
+const percentual = (funInter * func) / 100
+alert(`Em uma empresa com ${func} funcionários, apenas ${funInter} funcionários possuem acesso à Internet, o que equivale a ${percentual}% destes ${func} funcionários`);
+
 
     //SAÍDA
 
